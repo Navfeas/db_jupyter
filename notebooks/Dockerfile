@@ -1,8 +1,8 @@
-FROM pytorch/pytorch
-CMD nvidia-smi
-#set up environment
-RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y curl
-RUN apt-get install -y unzip gcc g++
+FROM python:3.9
+# CMD nvidia-smi
+# #set up environment
+# RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y curl
+# RUN apt-get install -y unzip gcc g++
 # Make project and results directory
 RUN mkdir /app
 
