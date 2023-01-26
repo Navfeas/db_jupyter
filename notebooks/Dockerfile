@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.7
 # CMD nvidia-smi
 # #set up environment
 # RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y curl
